@@ -1,14 +1,10 @@
 {
-    "builds":[
-        {
-            "src":"sever.py",
-            "user":"@vercel/python"
-        }
-	],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest":"sever.py"
-        }
+    "builds": [
+      { "src": "app.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/members", "dest": "/app.py" },
+      { "src": "/members/:member_id", "dest": "/app.py" }
     ]
-}
+  }
+  
