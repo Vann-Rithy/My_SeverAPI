@@ -6,7 +6,7 @@ members = [
     {"name": "Vann Rithy", "gender": "Male", "school": "RUPP"},
     {"name": "Samantha Smith", "gender": "Female", "school": "Harvard"},
     {"name": "John Doe", "gender": "Male", "school": "MIT"},
-    {"name": "Elon Musk", "gender": "Male", "school": "Tesla"}
+
 ]
 
 @app.route('/members', methods=['GET'])
