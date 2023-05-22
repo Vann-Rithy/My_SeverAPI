@@ -6,10 +6,6 @@ app = Flask(__name__)
 members = [
     {"name": "Vann Rithy", "gender": "Male", "school": "RUPP"},
     {"name": "Samantha Smith", "gender": "Female", "school": "Harvard"},
-    {"name": "Samantha Smith", "gender": "Female", "school": "Harvard"},
-    {"name": "Samantha Smith", "gender": "Female", "school": "Harvard"},
-    {"name": "Samantha Smith", "gender": "Female", "school": "Harvard"},
-    {"name": "Samantha Smith", "gender": "Female", "school": "Harvard"},
 ]
 
 @app.route('/members', methods=['GET'])
